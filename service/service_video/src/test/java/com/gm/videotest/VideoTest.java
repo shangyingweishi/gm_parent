@@ -20,7 +20,7 @@ public class VideoTest {
 
         String fileName = "D:\\JAVA文件夹\\尚硅谷在线教育\\1-阿里云上传测试视频\\6 - What If I Want to Move Faster.mp4";
 
-        UploadVideoRequest request = new UploadVideoRequest("LTAI4GBnQpzPSCy81bBQdXWV", "A5kZE5skH1iahru2XgLDfgMxqGxOHM", title, fileName);
+        UploadVideoRequest request = new UploadVideoRequest("", "", title, fileName);
         /* 可指定分片上传时每个分片的大小，默认为2M字节 */
         request.setPartSize(2 * 1024 * 1024L);
         /* 可指定分片上传时的并发线程数，默认为1，(注：该配置会占用服务器CPU资源，需根据服务器情况指定）*/
