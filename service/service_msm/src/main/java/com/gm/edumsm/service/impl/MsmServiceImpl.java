@@ -22,7 +22,7 @@ public class MsmServiceImpl implements MsmService {
         if(StringUtils.isEmpty(phone)) return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4GBnQpzPSCy81bBQdXWV", "A5kZE5skH1iahru2XgLDfgMxqGxOHM");
+                DefaultProfile.getProfile("default", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
